@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    background-color: darkblue;
+    padding: 30px;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    background-color: gray;
+    text-align: center;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.main {
+    margin-top: 20px;
+    text-align: center;
+}
+.inbox {
+    margin-top: 20px;
+}
+.today {
+    margin-top: 15px;
+}
+.upcoming {
+    margin-top: 15px;
+} 
