@@ -9,25 +9,48 @@
 <body>
     
     <header>
-        <h1>To Do List</h1>
     </header>
     <div class="container">
         <div class="sidebar">
             <div class="nav">
-                <div class="inbox">Inbox</div>
-                <div class="today">Today</div>
-                <div class="upcoming">Upcoming</div>
+                <h1>My Todos</h1>
+                <button id="urgent-button" class="urgent">Urgent</button>
+                <button id="important-button" class="important">Important</button>
+                <button id="casual-button" class="casual">Casual</button>
             </div>
         </div>
         <div class="center">
-            <div class="main">Something here</div>
-            <div>
-            <button>Add Task</button>
-            <input type="text"> 
+            <div class="main"></div>
+            <div id="show-todo" class="show-style">
+                <div class="menu-container">
+                <button id="new-todo" class="new-button">Add Todo</button>
+                <div class="menu">
+                    <div id="popup-menu-show" class="popup-menu">
+                        <div class="title-text">Title
+                        <input type="text" id="input-title">
+                        </div>
+                        <!-- <div class="description-text">Description
+                            <input type="text" id="input-description">
+                        </div>
+                            <select name="" id="year-select">
+                                <option value="0">2022</option>
+                                <option value="1">2023</option>
+                            </select> -->
+                        <div class="priority-text">Priority
+                            <select name="" id="priority-select">
+                                <option value="0">High</option>
+                                <option value="1">Medium</option>
+                                <option value="2">Low</option>
+                            </select>
+                        </div>
+                        <!-- <div class="due-date">Due Date</div> -->
+                        <button id="submit-todo" class="submit-style">Add</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>  
     </div>
     <script src="main.js"></script>
 </body>
 </html>
-
